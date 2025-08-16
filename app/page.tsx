@@ -9,6 +9,7 @@ const Page = () => {
   return (
     <main>
       <h1>Popluar Companions</h1>
+      
       <section className='home-section'>
         <CompanionsCard 
           id="123"
