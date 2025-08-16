@@ -43,11 +43,11 @@ const CompanionForm = () => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-        name:'',
-        subject:'',
-        topic:'',
-        voice:'',
-        style:'',
+        name:' ',
+        subject:' ',
+        topic:' ',
+        voice:' ',
+        style:' ',
         duration: 15,
     },
   })

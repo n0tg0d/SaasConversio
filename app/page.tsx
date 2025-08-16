@@ -5,11 +5,13 @@ import { Button } from '@/components/ui/button'
 import { recentSessions } from '@/constants'
 import React from 'react'
 
+
+
 const Page = () => {
   return (
     <main>
       <h1>Popluar Companions</h1>
-      
+
       <section className='home-section'>
         <CompanionsCard 
           id="123"
@@ -40,7 +42,7 @@ const Page = () => {
 
       <section className='home-section'>
         <CompanionsList 
-          title="Recent Sessions"
+          title="Recently completed sessions"
           companions={recentSessions}
           classNames="w-2/3 max-lg:w-full "
         />
