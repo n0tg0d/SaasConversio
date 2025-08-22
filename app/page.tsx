@@ -38,7 +38,7 @@ const Page = async () => {
         <CTA />
       </section>
     </main>
-  );
-};
+  )
+}
 
 export default Page;
